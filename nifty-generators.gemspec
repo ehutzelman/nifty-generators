@@ -12,4 +12,11 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = s.name
   s.required_rubygems_version = ">= 1.3.4"
+
+  s.add_development_dependency "cucumber", "~> 0.9"
+  s.add_development_dependency "shoulda", "~> 2.0.6"
+  s.add_development_dependency "rails", "2.0.2"
+  s.add_development_dependency "rubigen", "~> 1.4"
+  s.add_development_dependency "mocha", "~> 0.9"
+  s.add_development_dependency "rspec", "~> 1"
 end
